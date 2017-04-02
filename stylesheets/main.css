@@ -11,7 +11,7 @@
 	/* padding-right: 20px; */
 	margin: 0 auto;
 	height: auto;
-	padding: 0 25px;
+	padding: 0px 20px;
 	width: 1024px;
 	position: relative;
 }
@@ -66,7 +66,7 @@ h3 {
 #intro {
 	color: #fff;
 	background-color: #616161;
-	font-size: 18px;
+	font-size: 16px;
 	height: 175px;
 	padding-top: 55px;
 	position: relative;
@@ -217,9 +217,9 @@ h3 {
 .education-wrapper {
 	width: 100%;
 	height: auto;
-	padding-top: 80px;
+	padding-top: 100px;
 	padding-left: 60px;
-	padding-bottom: 75px;
+	padding-bottom: 73px;
 }
 
 /*=========== Aside Table ===========*/
@@ -273,26 +273,26 @@ h3 {
 }
 
 .circle-wrapper {
-	width: 90px;
-	height: 90px;
+	width: 95px;
+	height: 95px;
 	/*position: relative;
 	display: inline-block;*/
-	margin-right: 10px;
+	margin-left: 7.1px;
 	padding-top: 20px;
 	float: left;
 }
 
 .box-1 {
 	background-color: #ccc;
-	height: 90px;
-	width: 90px;
+	height: 95px;
+	width: 95px;
 	position: absolute;
 	border-radius: 50%;
 }
 .box-2 {
 	background-color: #ccc;
-	height: 90px;
-	width: 45px;
+	height: 95px;
+	width: 47.5px;
 	border-top-right-radius: 100px;
 	border-bottom-right-radius: 100px;
 	position: absolute;
@@ -300,8 +300,8 @@ h3 {
 }
 .box-3 {
 	background-color: #2196f3;
-	height: 90px;
-	width: 45px;
+	height: 95px;
+	width: 47.5px;
 	border-top-left-radius: 100px;
 	border-bottom-left-radius: 100px;
 	position: absolute;
@@ -309,8 +309,8 @@ h3 {
 }
 .box-4 {
 	background-color: #2196f3;
-	height: 90px;
-	width: 45px;
+	height: 95px;
+	width: 47.5px;
 	border-top-right-radius: 100px;
 	border-bottom-right-radius: 100px;
 	position: absolute;
@@ -318,8 +318,8 @@ h3 {
 }
 .circle-cover {
 	background-color: #f5f5f5;
-	height: 75px;
-	width: 75px;
+	height: 80px;
+	width: 80px;
 	border-radius: 50%;
 	position: absolute;
 	top: 8px;
@@ -350,10 +350,12 @@ h3 {
 #management .box-4 {
 	transform: rotate(180deg);
 	transform-origin: left;
+	/* width: 38px; */
 }
 #management .box-2 {
 	transform: rotate(90deg);
 	transform-origin: left;
+	width: 48px;
 }
 
 
